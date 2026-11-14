@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">크보</string>
+
+    <string name="tab_today">오늘</string>
+    <string name="tab_videos">영상</string>
+    <string name="tab_settings">설정</string>
+
+    <string name="pick_team_title">응원하는 팀을 골라 주세요</string>
+    <string name="pick_team_desc">고른 팀의 경기 결과와 하이라이트만 모아서 보여주고, 알림도 그 팀 기준으로 보냅니다.</string>
+
+    <string name="my_team">내 팀</string>
+    <string name="change_team">팀 바꾸기</string>
+    <string name="no_team">팀이 지정되지 않았습니다</string>
+
+    <string name="live_now">라이브</string>
+    <string name="live_badge">LIVE</string>
+    <string name="today_games">오늘 경기</string>
+    <string name="no_games_today">오늘은 KBO 경기가 없습니다</string>
+    <string name="recent_results">최근 결과</string>
+    <string name="upcoming">다음 경기</string>
+    <string name="other_games">나머지 경기</string>
+
+    <string name="status_before">경기 전</string>
+    <string name="status_live">진행 중</string>
+    <string name="status_finished">종료</string>
+    <string name="status_canceled">취소</string>
+
+    <string name="outcome_win">승</string>
+    <string name="outcome_lose">패</string>
+    <string name="outcome_draw">무</string>
+    <string name="outcome_none">-</string>
+
+    <string name="summary_title">경기 요약</string>
+    <string name="summary_unavailable">아직 요약 기록이 올라오지 않았습니다</string>
+    <string name="label_win_pitcher">승리투수</string>
+    <string name="label_lose_pitcher">패전투수</string>
+    <string name="label_save">세이브</string>
+    <string name="label_decisive">결승타</string>
+    <string name="label_homerun">홈런</string>
+    <string name="label_standings">순위</string>
+    <string name="label_win_pitcher_inline">승 %1$s</string>
+    <string name="label_lose_pitcher_inline">패 %1$s</string>
+    <string name="label_save_inline">세이브 %1$s</string>
+    <string name="label_decisive_inline">결승타 %1$s</string>
+    <string name="standings_value">%1$d위 %2$d승 %3$d패 %4$d무</string>
+
+    <string name="scoreboard">이닝별 점수</string>
+    <string name="scoreboard_inning">회</string>
+    <string name="scoreboard_runs">R</string>
+    <string name="scoreboard_hits">H</string>
+    <string name="scoreboard_errors">E</string>
+    <string name="scoreboard_walks">B</string>
+
+    <string name="related_videos">이 경기 영상</string>
+    <string name="watch_on_youtube">유튜브에서 보기</string>
+    <string name="videos_title">%1$s 영상</string>
+    <string name="videos_all">전체</string>
+    <string name="videos_highlight">하이라이트</string>
+    <string name="videos_moment">크보모먼트</string>
+    <string name="no_videos">조건에 맞는 영상이 없습니다</string>
+    <string name="videos_live">라이브</string>
+    <string name="live_official">공식</string>
+    <string name="live_viewers">%1$s명 시청 중</string>
+    <string name="live_error">라이브를 불러오지 못했습니다</string>
+    <string name="live_none_for_game">지금 %1$s 경기를 중계하는 유튜브 라이브가 없습니다</string>
+
+    <string name="need_api_key_title">유튜브 API 키가 필요합니다</string>
+    <string name="need_api_key_desc">영상 목록은 YouTube Data API v3 로 가져옵니다. 구글 클라우드 콘솔에서 키를 발급받아 설정에 넣어 주세요. 경기 결과와 요약은 키 없이도 동작합니다.</string>
+    <string name="go_to_settings">설정으로 가기</string>
+
+    <string name="settings_notifications">알림</string>
+    <string name="settings_notify_result">경기 결과 알림</string>
+    <string name="settings_notify_result_desc">내 팀 경기가 끝나면 스코어와 요약을 보냅니다</string>
+    <string name="settings_notify_video">새 영상 알림</string>
+    <string name="settings_notify_video_desc">내 팀 하이라이트가 올라오면 알립니다 (API 키 필요)</string>
+    <string name="settings_permission_needed">알림 권한이 꺼져 있습니다. 눌러서 허용해 주세요.</string>
+    <string name="settings_youtube">유튜브</string>
+    <string name="settings_api_key">API 키</string>
+    <string name="settings_api_key_hint">AIza… 로 시작하는 키</string>
+    <string name="settings_api_key_from_build">빌드에 심어진 키를 쓰고 있습니다. 여기에 입력하면 그 키를 대신 씁니다.</string>
+    <string name="settings_save">저장</string>
+    <string name="settings_saved">저장했습니다</string>
+    <string name="settings_about">정보</string>
+    <string name="settings_source">경기 일정·스코어·기록은 네이버 스포츠 KBO 공개 데이터, 영상은 KBO 공식 유튜브 채널에서 가져옵니다.</string>
+
+    <string name="retry">다시 시도</string>
+    <string name="loading">불러오는 중</string>
+    <string name="error_generic">불러오지 못했습니다</string>
+
+    <string name="channel_result">경기 결과</string>
+    <string name="channel_result_desc">내 팀 경기가 끝났을 때</string>
+    <string name="channel_video">새 영상</string>
+    <string name="channel_video_desc">내 팀 하이라이트가 올라왔을 때</string>
+    <string name="notif_result_title">%1$s %2$s · %3$d-%4$d vs %5$s</string>
+    <string name="notif_video_title">%1$s 새 영상</string>
+</resources>
